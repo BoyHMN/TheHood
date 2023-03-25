@@ -8,7 +8,8 @@
     left: 0;
     flex-direction: row;
     background-color: var(--primary-color);
-    height: 5.5em;
+    background: linear-gradient(270deg, #1c3094, #13005A);
+    height: 6em;
     width: 100%;
     z-index: 1000;
 }
@@ -22,7 +23,7 @@
 
 }
 nav{
-    width: 50%;
+    width: 40%;
     display: flex;
     gap: 10%;
     flex-direction: row;
