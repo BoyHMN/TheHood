@@ -1,6 +1,7 @@
 :root{
-    --primary-color: #13005A;
-    --other-color: #03C988;
+    --primary-color: #2D2727;
+    /*--primary-color: #13005A;*/
+    --other-color: #413543;
     --byad: #ffffff;
 
 }
@@ -38,6 +39,8 @@ a:visited{
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #1c3094;
+    background: var(--other-color);
   }
-
+body{
+  background: linear-gradient(360deg, #999a9c , white); 
+}

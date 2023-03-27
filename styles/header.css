@@ -7,11 +7,10 @@
     right: 0;
     left: 0;
     flex-direction: row;
-    background-color: var(--primary-color);
-    background: linear-gradient(270deg, #1c3094, #13005A);
+    background: linear-gradient(270deg, var(--other-color), var(--primary-color));
     height: 6em;
     width: 100%;
-    z-index: 1000;
+    z-index: 999;
 }
 
 
@@ -19,10 +18,10 @@
     margin-left: 2%;
     display: flex;
     align-items: center;
-    color: var(--byad);
+    color: #9DD6DF;
 
 }
-nav{
+.header-right{
     width: 40%;
     display: flex;
     gap: 10%;
@@ -32,4 +31,9 @@ nav{
 .header-left p{
     font-size: xx-large;
 }
-
+.header-right a{
+    transition: 125ms;
+}
+.header-right a:hover{
+    scale: 1.4;
+}
