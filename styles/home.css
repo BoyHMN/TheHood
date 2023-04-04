@@ -14,28 +14,27 @@
 .hero-para-container{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     margin-top: 11.3%;
     align-items: center;
 }
 .hero-title{
-    height: 10%;
-    
-
+    height: 100%;
+    margin-top: 4%;
     color: var(--primary-color);
     font-size: 3.9em;
 }
 .hero-para{
     margin-top: 10% ;
-    margin-left: 7%;
-    font-size: 2em;
+    margin-left: 4.5%;
+    font-size: 3em;
     line-height: 175%;
     
 }
 
 .btn-1{
-    margin-top: 23%;
-    margin-left: 100%;
+    margin-top: 50%;
+    margin-left: 130%;
     height: 4em;
     width: 15em;
     border: none;
@@ -44,5 +43,9 @@
     color: var(--byad);
     font-size: 1em;
     cursor: pointer;
+    transition: 125ms;
+}
+.btn-1:hover{
+    background-color: var(--other-color);
 }
 

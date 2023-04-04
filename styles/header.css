@@ -31,9 +31,11 @@
 .header-left p{
     font-size: xx-large;
 }
-.header-right a{
+.header-right p{
     transition: 125ms;
+    cursor: pointer;
+    color: var(--byad);
 }
-.header-right a:hover{
+.header-right p:hover{
     scale: 1.4;
 }

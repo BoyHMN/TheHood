@@ -1,6 +1,19 @@
 .about-us{
-    height: 50em;
-    /*background: linear-gradient(360deg, #999a9c , white);*/ 
-    
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us-para{
+    width: 100%;
+    font-size: 1.5em;
+    color: var(--byad);
+    line-height: 170%;
+}
+.about-us-container{
+    width: 50%;
+    height: 80%;
+    border-radius: 3em;
+    background-color: var(--primary-color);
+    opacity: 0.9;
+    padding: 3.3em;
 }

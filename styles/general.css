@@ -44,3 +44,12 @@ a:visited{
 body{
   background: linear-gradient(360deg, #999a9c , white); 
 }
+.vide{
+  
+  display: flex;
+  height: 8em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
