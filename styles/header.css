@@ -1,3 +1,11 @@
+@keyframes slide-from-top {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 .header{
     display: flex;
     justify-content: space-between;
@@ -11,6 +19,10 @@
     height: 6em;
     width: 100%;
     z-index: 999;
+    animation-name: slide-from-top;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 

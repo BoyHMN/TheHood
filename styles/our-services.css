@@ -1,3 +1,24 @@
+@keyframes slide-from-nowhere-to-left {
+    0% {
+      transform: translateX(200%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-from-nowhere-to-right {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
 .icon-bs{
     width: 100%;
     margin-bottom: 5%;
@@ -17,4 +38,19 @@
     font-size: x-large;
     color: var(--primary-color);
     font-weight:600;
+    margin-bottom: 3%;
 }
+.buy {
+    animation-name: slide-from-nowhere-to-right;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+.rent {
+    animation-name: slide-from-nowhere-to-left;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
