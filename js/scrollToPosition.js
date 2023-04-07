@@ -1,7 +1,7 @@
 function scrollToPosition(id, headerHeight) {
-    var element = document.getElementById(id);
-    var offset = element.offsetTop;
-    var position = offset - headerHeight;
+    let element = document.getElementById(id);
+    let offset = element.offsetTop;
+    let position = offset - headerHeight;
   
     window.scrollTo({
       top: position,

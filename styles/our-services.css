@@ -22,6 +22,11 @@
 .icon-bs{
     width: 100%;
     margin-bottom: 5%;
+    cursor: pointer;
+    transition: 125ms;
+}
+.icon-bs:hover{
+  scale: 1.1;
 }
 .our-services{
     display: grid;
@@ -39,6 +44,11 @@
     color: var(--primary-color);
     font-weight:600;
     margin-bottom: 3%;
+    cursor: pointer;
+    transition: 125ms;
+}
+.grid-title:hover{
+  scale: 1.4;
 }
 .buy {
     animation-name: slide-from-nowhere-to-right;
@@ -54,3 +64,10 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
+.sect-info{
+  color: var(--gris-description);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin-top: 8%;
+  margin-bottom: -8%;
+}

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/our-services.css">
+    <link rel="stylesheet" href="styles/gallery-grid.css">
     <title>TheHood</title>
     <link rel="icon" type="image/x-icon" href="/src/Screenshot 2023-03-27 184409.png">
 </head>
@@ -24,7 +25,7 @@
            <a href="#home" ><p>TheHood</p></a>
         </div>
         <nav class="header-right">
-            <p  onclick="scrollToPosition('home',96)">Home</p>
+            <p  onclick="scrollToPosition('home',0)">Home</p>
             <p  onclick="scrollToPosition('about',96)">About Us</p>
             <p  onclick="scrollToPosition('services',96)">Our services</p>
             <p onclick="scrollToPosition('contact',96)">Contact</p>
@@ -32,6 +33,7 @@
 
         </nav>
     </header>
+    <!------------Home section------------>
     <div class="home"id="home">
       <div class="hero-pic" >
         <div class="hero-para-container">
@@ -44,6 +46,7 @@
        </div>
       </div>
     </div>
+    <!------------About us section------------>
     <div class="vide" id="about">
       <div class="hero-title">About us</div>
     </div>
@@ -56,13 +59,14 @@
        </div>
      </div>
     </div>
+    <!------------Services section------------>
     <div class="vide">
       <div class="hero-title" id="services" >Our services</div>
     </div>
     <div class="our-services">
       <div class="buy">
-        <img class="icon-bs" src="src/19781214.png" alt="buy">
-        <div class="grid-title">Buy</div> 
+        <img class="icon-bs" src="src/19781214.png" alt="buy" onclick="scrollToPosition('buy',96)">
+        <div class="grid-title"> <p onclick="scrollToPosition('buy',96)"> Buy</p></div> 
         <div class="sect-info">The real estate agency website features properties for sale, with detailed information and tools to help prospective buyers make informed decisions and find their dream home.</div>
       </div>
       <div class="rent">
@@ -71,6 +75,40 @@
         <div class="sect-info">The website has a section for renters to browse and search available properties with detailed information and resources to make informed decisions.</div>
       </div>
     </div>
+    <!------------Gallery "Buying/Renting" section------------>
+    <div class="vide">
+      <div class="hero-title" id="buy" >For sale</div>
+    </div>
+    <div class="grid">
+      <div class="row">
+        <div class="slide">
+          <img src="src/gallery/1.jpg" alt="Image 1">
+        </div>
+      </div>
+      <div class="row">
+        <div class="slide">
+          <img src="src/gallery/2.jpg" alt="Image 2">
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="slide">
+          <img src="src/gallery/3.jpg" alt="Image 3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="slide">
+          <img src="src/gallery/4.jpg" alt="Image 4">
+        </div>
+    </div>
+    <div class="row">
+      <div class="slide">
+        <img src="src/gallery/5.jpg" alt="Image 5">
+      </div>
+     </div>
+    </div>
+     
+    <!------------Contact section------------>
     <div class="container" id="contact">
         <span class="big-circle"></span>
         <img src="img/shape.png" class="square" alt="" />
