@@ -1,4 +1,8 @@
 footer{
     background-color: var(--primary-color);
-    height: 15em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--byad);
 }

@@ -6,12 +6,13 @@ textarea {
 }
 
 .container {
+  margin-top: -3%;
   position: relative;
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
   background-color:transparent;
-  overflow: hidden;
+  /*overflow: hidden;*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,7 +90,7 @@ form {
 .input {
   width: 100%;
   outline: none;
-  border: 2px solid #fafafa;
+  border: 2px solid #ffffff;
   background: none;
   padding: 0.6rem 1.2rem;
   color: #fff;
