@@ -18,7 +18,7 @@
     background: linear-gradient(270deg, var(--other-color), var(--primary-color));
     height: 6em;
     width: 100%;
-    z-index: 999;
+    z-index: 998;
     animation-name: slide-from-top;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
@@ -50,4 +50,20 @@
 }
 .header-right p:hover{
     scale: 1.4;
+}
+@media (max-width:394px) {
+    .header{
+        height: 6em;
+        
+
+
+        flex-direction: row;
+    }
+    .header-right{
+        width: 40%;
+        font-size: medium;
+        margin-right: 2em;
+        justify-content: end;
+    }
+    
 }

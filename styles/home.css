@@ -48,4 +48,20 @@
 .btn-1:hover{
     background-color: var(--other-color);
 }
-
+@media only screen and (max-width:394px){
+    .hero-pic{
+        
+        background-size: contain;   
+    }
+    .hero-para{
+        font-size: 1.2em;
+        margin-top: 70%;
+    }
+    .btn-1{
+        margin-left: 15%;
+        width: 8em;
+    }
+    .hero-para-container{
+        width:50%;
+    }
+}

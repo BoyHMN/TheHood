@@ -8,3 +8,7 @@ function scrollToPosition(id, headerHeight) {
       behavior: 'smooth'
     });
   }
+  const yeye = document.getElementById("yeye");
+const hamburber = document.getElementById("haburber");
+hamburber.addEventListener("click" , function(){
+ yeye.classList.toggle("active")});
