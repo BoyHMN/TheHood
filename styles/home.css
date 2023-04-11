@@ -1,38 +1,40 @@
-
-.hero-pic{
+.hero-pic {
     display: flex;
     height: 46.56em;
-    background-image: url(/src/minimal-apartment-building-city-with-copy-space.jpg);
-    background-size:cover;
+    background-image: url(../src/minimal-apartment-building-city-with-copy-space.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-bottom-left-radius: 9em;
     border-bottom-right-radius: 9em;
-    
-    
+
+
 }
-.hero-para-container{
+
+.hero-para-container {
     display: flex;
     flex-direction: column;
     width: 60%;
     margin-top: 11.3%;
     align-items: center;
 }
-.hero-title{
+
+.hero-title {
     height: 100%;
     margin-top: 4%;
     color: var(--primary-color);
     font-size: 3.9em;
 }
-.hero-para{
-    margin-top: 10% ;
+
+.hero-para {
+    margin-top: 10%;
     margin-left: 4.5%;
     font-size: 3em;
     line-height: 175%;
-    
+
 }
 
-.btn-1{
+.btn-1 {
     margin-top: 50%;
     margin-left: 130%;
     height: 4em;
@@ -45,23 +47,34 @@
     cursor: pointer;
     transition: 125ms;
 }
-.btn-1:hover{
+
+.btn-1:hover {
     background-color: var(--other-color);
 }
-@media only screen and (max-width:394px){
-    .hero-pic{
-        
-        background-size: contain;   
+
+@media only screen and (max-width:394px) {
+    .hero-pic {
+        height: 500px;
+        background-size: contain;
     }
-    .hero-para{
-        font-size: 1.2em;
-        margin-top: 70%;
+
+    .hero-para {
+        font-size: 1em;
+        margin-top: 120px;
     }
-    .btn-1{
-        margin-left: 15%;
-        width: 8em;
+
+    .btn-1 {
+        margin-left: 8%;
+        width: 6em;
+        height: 3em;
+        font-size: .8em;
     }
-    .hero-para-container{
-        width:50%;
+
+    .hero-para-container {
+        width: 70%;
+    }
+
+    .sec-title {
+        font-size: 2em;
     }
 }

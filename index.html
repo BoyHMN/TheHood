@@ -1,242 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/about-us.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/contact.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/our-services.css">
-    <link rel="stylesheet" href="styles/gallery-grid.css">
-    <title>TheHood</title>
-    <link rel="icon" type="image/x-icon" href="/src/Screenshot 2023-03-27 184409.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/about-us.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/our-services.css">
+  <link rel="stylesheet" href="styles/gallery-grid.css">
+  <title>TheHood</title>
+  <link rel="icon" type="image/x-icon" href="/src/Screenshot 2023-03-27 184409.png">
 </head>
+
 <body>
   <div class="sidechick" id="yeye">
     <a class="peow1" href="#home" onclick="scrollToPosition('home',96)">Home</a>
     <a class="peow1" href="#test" onclick="scrollToPosition('about',96)">About Us</a>
     <a class="peow1" href="#services" onclick="scrollToPosition('services',96)">Our services</a>
-   <a class="peow1" href="#contact" onclick="scrollToPosition('contact',96)">Contact</a>
+    <a class="peow1" href="#contact" onclick="scrollToPosition('contact',96)">Contact</a>
   </div>
-    <header class="header">
-        <div class="header-left" >
-           <a href="#home" ><p>TheHood</p></a>
-        </div>
-        <nav class="header-right">
-            <p class="peow" onclick="scrollToPosition('home',0)">Home</p>
-            <p class="peow" onclick="scrollToPosition('about',96)">About Us</p>
-            <p class="peow" onclick="scrollToPosition('services',96)">Our services</p>
-            <p class="peow" onclick="scrollToPosition('contact',96)">Contact</p>
-            <img src="./src/hamburger-menu.svg" class="shee" id="haburber">
+  <header class="header">
+    <div class="header-left">
+      <a href="#home">
+        <p>TheHood</p>
+      </a>
+    </div>
+    <nav class="header-right">
+      <p class="peow" onclick="scrollToPosition('home',0)">Home</p>
+      <p class="peow" onclick="scrollToPosition('about',96)">About Us</p>
+      <p class="peow" onclick="scrollToPosition('services',96)">Our services</p>
+      <p class="peow" onclick="scrollToPosition('contact',96)">Contact</p>
+      <img src="./src/hamburger-menu.svg" class="shee" id="haburber">
 
 
-        </nav>
-    </header>
-    <!------------Home section------------>
-    <div class="home"id="home">
-      <div class="hero-pic" >
-        <div class="hero-para-container">
-          <div class="hero-para">
-            Find Your Perfect Home in TheHood <br> Where Community and Comfort Meet!
-          </div>
-          <div class="btn-container">
-            <button onclick="scrollToPosition('about',96)" class="btn-1">About Us</button>
-          </div>
-       </div>
-      </div>
-    </div>
-    <!------------About us section------------>
-    <div class="vide" id="about">
-      <div class="hero-title">About us</div>
-    </div>
-    <div class="about-us" >
-      <div class="about-us-container">
-       <div class="about-us-para"><p class="top">
-        TheHood is a top-tier real estate agency that helps clients buy, sell, and rent apartments and villas in desirable neighborhoods. <br>
-         With personalized service, local expertise, and a wide selection of properties to choose from, we're dedicated to finding the perfect fit for your lifestyle.<br>
-         Let us guide you through the process and help you find your dream home in TheHood community.</p>
-       </div>
-     </div>
-    </div>
-    <!------------Services section------------>
-    <div class="vide">
-      <div class="hero-title" id="services" >Our services</div>
-    </div>
-    <div class="our-services">
-      <div class="buy">
-        <img class="icon-bs" src="src/19781214.png" alt="buy" onclick="scrollToPosition('buy',96)">
-        <div class="grid-title"> <p onclick="scrollToPosition('buy',96)"> Buy</p></div> 
-        <div class="sect-info">The real estate agency website features properties for sale, with detailed information and tools to help prospective buyers make informed decisions and find their dream home.</div>
-      </div>
-      <div class="rent">
-        <img class="icon-bs" src="src/19781213.png" alt="rent" onclick="scrollToPosition('rent',96)">
-        <div class="grid-title"><p onclick="scrollToPosition('rent',96)">Rent</p></div> 
-        <div class="sect-info">The website has a section for renters to browse and search available properties with detailed information and resources to make informed decisions.</div>
-      </div>
-    </div>
-    <!------------Gallery "Buying/Renting" section------------>
-    <div class="vide">
-      <div class="hero-title" id="buy" >For sale</div>
-    </div>
-    <div class="grid">
-      <div class="row">
-        <div class="slide">
-          <img src="src/gallery/1.jpg" alt="Image 1">
+    </nav>
+  </header>
+  <!------------Home section------------>
+  <div class="home" id="home">
+    <div class="hero-pic">
+      <div class="hero-para-container">
+        <div class="hero-para">
+          Find Your Perfect Home in TheHood <br> Where Community and Comfort Meet!
+        </div>
+        <div class="btn-container">
+          <button onclick="scrollToPosition('about',96)" class="btn-1">About Us</button>
         </div>
       </div>
-      <div class="row">
-        <div class="slide">
-          <img src="src/gallery/2.jpg" alt="Image 2">
-        </div>
-        
+    </div>
+  </div>
+  <!------------About us section------------>
+  <div class="vide" id="about">
+    <div class="hero-title sec-title">About us</div>
+  </div>
+  <div class="about-us">
+    <div class="about-us-container">
+      <div class="about-us-para">
+        <p class="top">
+          TheHood is a top-tier real estate agency that helps clients buy, sell, and rent apartments and villas in
+          desirable neighborhoods. <br>
+          With personalized service, local expertise, and a wide selection of properties to choose from, we're dedicated
+          to finding the perfect fit for your lifestyle.<br>
+          Let us guide you through the process and help you find your dream home in TheHood community.</p>
       </div>
-      <div class="row">
-        <div class="slide">
-          <img src="src/gallery/3.jpg" alt="Image 3">
-        </div>
+    </div>
+  </div>
+  <!------------Services section------------>
+  <div class="vide">
+    <div class="hero-title sec-title" id="services">Our services</div>
+  </div>
+  <div class="our-services">
+    <div class="buy service">
+      <img class="icon-bs" src="src/19781214.png" alt="buy" onclick="scrollToPosition('buy',96)">
+      <div class="grid-title">
+        <p onclick="scrollToPosition('buy',96)"> Buy</p>
       </div>
-      <div class="row">
-        <div class="slide">
-          <img src="src/gallery/4.jpg" alt="Image 4">
-        </div>
+      <div class="sect-info">The real estate agency website features properties for sale, with detailed information and
+        tools to help prospective buyers make informed decisions and find their dream home.</div>
+    </div>
+    <div class="rent service">
+      <img class="icon-bs" src="src/19781213.png" alt="rent" onclick="scrollToPosition('rent',96)">
+      <div class="grid-title">
+        <p onclick="scrollToPosition('rent',96)">Rent</p>
+      </div>
+      <div class="sect-info">The website has a section for renters to browse and search available properties with
+        detailed information and resources to make informed decisions.</div>
+    </div>
+  </div>
+  <!------------Gallery "Buying/Renting" section------------>
+  <div class="vide">
+    <div class="hero-title sec-title" id="buy">For sale</div>
+  </div>
+  <div class="grid">
+    <div class="row">
+      <div class="slide">
+        <img src="src/gallery/1.jpg" alt="Image 1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="slide">
+        <img src="src/gallery/2.jpg" alt="Image 2">
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="slide">
+        <img src="src/gallery/3.jpg" alt="Image 3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="slide">
+        <img src="src/gallery/4.jpg" alt="Image 4">
+      </div>
     </div>
     <div class="row">
       <div class="slide">
         <img src="src/gallery/5.jpg" alt="Image 5">
       </div>
-     </div>
-     <div class="row">
+    </div>
+    <div class="row">
       <div class="slide">
         <img src="src/gallery/1.jpg" alt="Image 1">
       </div>
     </div>
+  </div>
+  <div class="vide">
+    <div class="hero-title sec-title" id="rent">For rent</div>
+  </div>
+  <div class="grid">
+    <div class="row">
+      <div class="slide">
+        <img src="src/gallery/1.jpg" alt="Image 1">
+      </div>
     </div>
-    <div class="vide">
-      <div class="hero-title" id="rent" >For rent</div>
+    <div class="row">
+      <div class="slide">
+        <img src="src/gallery/2.jpg" alt="Image 2">
+      </div>
+
     </div>
-    <div class="grid">
-      <div class="row">
-        <div class="slide">
-          <img src="src/gallery/1.jpg" alt="Image 1">
-        </div>
+    <div class="row">
+      <div class="slide">
+        <img src="src/gallery/3.jpg" alt="Image 3">
       </div>
-      <div class="row">
-        <div class="slide">
-          <img src="src/gallery/2.jpg" alt="Image 2">
-        </div>
-        
+    </div>
+    <div class="row">
+      <div class="slide">
+        <img src="src/gallery/4.jpg" alt="Image 4">
       </div>
-      <div class="row">
-        <div class="slide">
-          <img src="src/gallery/3.jpg" alt="Image 3">
-        </div>
-      </div>
-      <div class="row">
-        <div class="slide">
-          <img src="src/gallery/4.jpg" alt="Image 4">
-        </div>
     </div>
     <div class="row">
       <div class="slide">
         <img src="src/gallery/5.jpg" alt="Image 5">
       </div>
-     </div>
-     <div class="row">
+    </div>
+    <div class="row">
       <div class="slide">
         <img src="src/gallery/1.jpg" alt="Image 1">
       </div>
     </div>
-    </div>
-     
-    <!------------Contact section------------>
-    <div class="vide">
-      <div class="hero-title" id="contact">Contact US</div>
-    </div>
-    <div class="container">
-        <span class="big-circle"></span>
-        <img src="img/shape.png" class="square" alt="" />
-        <div class="form">
-          <div class="contact-info">
-            <h3 class="title">Let's get in touch</h3>
-            <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              dolorum adipisci recusandae praesentium dicta!
-            </p>
-  
-            <div class="info">
-              <div class="information">
-                <p>University of Oran 1</p>
-              </div>
-              <div class="information">
-                <p>lorem@ipsum.com</p>
-              </div>
-              <div class="information">
-                <p>+2135-59-59-59</p>
-              </div>
-            </div>
-  
-            <div class="social-media">
-              <p>Connect with us :</p>
-              <div class="social-icons">
-                <a href="https://www.facebook.com/BoyHMN04">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://twitter.com/Boy_HMN">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.instagram.com/aziz_hamane/">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/aziz-hamane-b2a4281b8/">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </div>
-            </div>
+  </div>
+
+  <!------------Contact section------------>
+  <div class="vide">
+    <div class="hero-title sec-title" id="contact">Contact US</div>
+  </div>
+  <div class="container">
+    <span class="big-circle"></span>
+    <img src="img/shape.png" class="square" alt="" />
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Let's get in touch</h3>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+          dolorum adipisci recusandae praesentium dicta!
+        </p>
+
+        <div class="info">
+          <div class="information">
+            <p>University of Oran 1</p>
           </div>
-  
-          <div class="contact-form">
-            
-            <form action="index.html" autocomplete="off">
-              <h3 class="title">Contact us</h3>
-              <div class="input-container">
-                <input type="text" name="name" class="input" />
-                <label for="">Username</label>
-                <span>Username</span>
-              </div>
-              <div class="input-container">
-                <input type="email" name="email" class="input" />
-                <label for="">Email</label>
-                <span>Email</span>
-              </div>
-              <div class="input-container">
-                <input type="tel" name="phone" class="input" />
-                <label for="">Phone</label>
-                <span>Phone</span>
-              </div>
-              <div class="input-container textarea">
-                <textarea name="message" class="input"></textarea>
-                <label for="">Message</label>
-                <span>Message</span>
-              </div>
-              <input type="submit" value="Send" class="btn" />
-            </form>
-            
+          <div class="information">
+            <p>lorem@ipsum.com</p>
+          </div>
+          <div class="information">
+            <p>+2135-59-59-59</p>
           </div>
         </div>
-    </div>
-    <footer>
-      <p>Designed by : Aziz Hamane &#169; 2023</p>
 
-    </footer>
-      <script src="/js/contact.js"></script>
-      <script src="/js/scrollToPosition.js"></script>
+        <div class="social-media">
+          <p>Connect with us :</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/BoyHMN04">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/Boy_HMN">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/aziz_hamane/">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/aziz-hamane-b2a4281b8/">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+
+        <form action="index.html" autocomplete="off">
+          <h3 class="title">Contact us</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" />
+            <label for="">Username</label>
+            <span>Username</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" />
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" />
+            <label for="">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input"></textarea>
+            <label for="">Message</label>
+            <span>Message</span>
+          </div>
+          <input type="submit" value="Send" class="btn" />
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Designed by : Aziz Hamane &#169; 2023</p>
+
+  </footer>
+  <script src="/js/contact.js"></script>
+  <script src="/js/scrollToPosition.js"></script>
 </body>
+
 </html>

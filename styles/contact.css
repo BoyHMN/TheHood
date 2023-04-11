@@ -11,7 +11,7 @@ textarea {
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
-  background-color:transparent;
+  background-color: transparent;
   /*overflow: hidden;*/
   display: flex;
   align-items: center;
@@ -291,11 +291,12 @@ textarea.input {
   transform: translate(181%, 11%);
   opacity: 0.2;
 }
-.up-btn{
-    position: absolute;
-    right: 5em;
-    bottom: 0;
-    z-index: 1000;
+
+.up-btn {
+  position: absolute;
+  right: 5em;
+  bottom: 0;
+  z-index: 1000;
 }
 
 @media (max-width: 53.125em) {

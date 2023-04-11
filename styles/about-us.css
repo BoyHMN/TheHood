@@ -1,19 +1,37 @@
-.about-us{
+.about-us {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.about-us-para{
+
+.about-us-para {
     width: 100%;
     font-size: 1.5em;
     color: var(--byad);
-    line-height: 170%;
+    line-height: 150%;
 }
-.about-us-container{
+
+.about-us-container {
     width: 50%;
     height: 80%;
     border-radius: 3em;
     background-color: var(--primary-color);
     opacity: 0.9;
     padding: 3.3em;
+}
+
+
+@media screen and (max-width: 394px) {
+    .about-us-container {
+        width: 90%;
+        /* height: 80%; */
+        border-radius: 3em;
+        background-color: var(--primary-color);
+        opacity: 0.9;
+        padding: 1em 2em;
+    }
+
+    .top {
+        font-size: .8em !important;
+    }
 }

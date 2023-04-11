@@ -33,4 +33,8 @@
       scale: 1.05;
     }
   
- 
+ @media screen and (max-width: 394px){
+  .slide img {
+    height: 100%;
+  }
+ }
